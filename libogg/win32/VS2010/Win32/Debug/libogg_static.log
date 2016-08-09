@@ -1,0 +1,21 @@
+﻿Build started 2016/8/2 9:23:00.
+     1>Project "F:\mywork\OpenSource\libogg-1.3.2\win32\VS2010\libogg_static.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Win32\Debug\libogg_static.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /I"C:\Program Files (x86)\Visual Leak Detector\include" /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D LIBOGG_EXPORTS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\src\bitwise.c ..\..\src\framing.c
+         framing.c
+         bitwise.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"F:\mywork\OpenSource\libogg-1.3.2\win32\VS2010\Win32\Debug\libogg_static.lib" /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" /NOLOGO Win32\Debug\bitwise.obj
+         Win32\Debug\framing.obj
+         libogg_static.vcxproj -> F:\mywork\OpenSource\libogg-1.3.2\win32\VS2010\Win32\Debug\libogg_static.lib
+       FinalizeBuildStatus:
+         Deleting file "Win32\Debug\libogg_static.unsuccessfulbuild".
+         Touching "Win32\Debug\libogg_static.lastbuildstate".
+     1>Done Building Project "F:\mywork\OpenSource\libogg-1.3.2\win32\VS2010\libogg_static.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.42
