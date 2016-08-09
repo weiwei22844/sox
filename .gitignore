@@ -27,3 +27,26 @@
 *.exe
 *.out
 *.app
+
+# temp file
+*.ncb
+*.aps
+*.opt
+*.plg
+*.sbr
+*.ilk
+*.pdb
+*.idb
+*.bsc
+*.res
+*.htm
+*.manifest
+*.pch
+*.dep
+*.suo
+*.tlog
+
+# useless files
+*.user
+*.sdf
+*.opensdf
